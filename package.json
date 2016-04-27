@@ -1,13 +1,23 @@
 {
-    "name": "MagicBinderApp",
-    "description": "a simple tool to create magic the gathering binders",
-    "repository" : { 
-    	"type" : "git",
-    	"url" : "https://github.com/npm/npm.git"
-    },
-    "main": "server.js",
-    "dependencies" : {
-        "express"    : "latest",
-        "mongoose"   : "latest"
+  "name": "MagicBinderApp",
+  "description": "a simple tool to create magic the gathering binders",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Abdulrahman Alhadhrami",
+      "email": "alhadhrami93@gmail.com"
     }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alhadhrami/MagicBinder"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^5.0.0-alpha.2",
+    "method-override": "*",
+    "mongoose": "*"
+  }
 }
